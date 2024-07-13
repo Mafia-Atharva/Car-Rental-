@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+      <div class="call_text_main">
+         <div class="container">
+            <div class="call_taital">
+               <div class="call_text"><a href="https://www.google.com/maps" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_15">Location</span></a></div>
+               <div class="call_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_15">(+71) 8522369417</span></a></div>
+               <div class="call_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_15">Trator@gmail.com</span></a></div>
+            </div>
+         </div>
+      </div>
+      <!-- choose section start -->
+      <div class="choose_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="choose_taital">WHY CHOOSE US</h1>
+               </div>
+            </div>
+            <div class="choose_section_2">
+               <div class="row">
+                  <div class="col-sm-4">
+                     <div class="icon_1"><img src="{% static 'images/icon-1.png' %}"></div>
+                     <h4 class="safety_text">SAFETY & SECURITY</h4>
+                     <p class="ipsum_text">At Trator, safety and security are our top priorities. We understand the importance of providing a secure environment for our customers and their journeys. Our fleet undergoes rigorous maintenance checks and is equipped with the latest safety features to ensure a smooth and secure ride. Additionally, we have implemented strict protocols for cleaning and sanitization to maintain a hygienic environment in all our vehicles. Your safety and peace of mind are paramount to us at Trator.</p>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %}"></div>
+                     <h4 class="safety_text">ONLINE BOOKING</h4>
+                     <p class="ipsum_text">Booking your ride with Trator is quick, easy, and convenient with our seamless online booking platform. Simply visit our website or download our user-friendly mobile app to access our extensive fleet of vehicles. Our online booking system allows you to choose your preferred vehicle, select pickup and drop-off locations, and customize your rental duration with just a few clicks. Enjoy the convenience of booking your ride anytime, anywhere, and experience a hassle-free journey with Trator.</p>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="icon_1"><img src="{% static 'images/icon-3.png' %}"></div>
+                     <h4 class="safety_text">BEST DRIVERS</h4>
+                     <p class="ipsum_text">At Trator, we take pride in our team of highly skilled and professional drivers who are dedicated to providing you with the best possible experience. Our drivers undergo thorough training and screening processes to ensure they meet the highest standards of safety, reliability, and customer service. With their expertise and commitment to excellence, you can rest assured that your journey with Trator will be smooth, enjoyable, and memorable. Experience the difference of traveling with the best drivers at Trator! </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- choose section end -->
+      {% endblock %}

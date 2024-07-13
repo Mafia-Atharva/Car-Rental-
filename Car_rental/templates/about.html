@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="call_text_main">
+   <div class="container">
+      <div class="call_taital">
+         <div class="call_text"><a href="https://www.google.com/maps" target="_blank"><i class="fa fa-map-marker"
+                  aria-hidden="true"></i><span class="padding_left_15">Location</span></a></div>
+         <div class="call_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span
+                  class="padding_left_15">(+71) 8522369417</span></a></div>
+         <div class="call_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span
+                  class="padding_left_15">Trator@gmail.com</span></a></div>
+      </div>
+   </div>
+</div>
+<!-- about section start -->
+<div class="about_section layout_padding">
+   <div class="container">
+      <div class="about_section_2">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="image_iman"><img src="{% static 'images/about-img.png' %}" class="about_img"></div>
+            </div>
+            <div class="col-md-6">
+               <div class="about_taital_box">
+                  <h1 class="about_taital">About <span style="color: #fe5b29;">Us</span></h1>
+                  <p class="about_text">
+                     <strong>About Trator</strong>
+
+                  <ul>
+                     <li>Welcome to Trator, your reliable partner on the road. Our commitment is to transform your
+                        travel encounters by providing exceptional vehicles and tailor-made services. Whether it's a
+                        quick getaway or an extended expedition, Trator is here to ensure your journey is nothing short
+                        of exceptional. Let's embark on a voyage of dependability, luxury, and contentment together with
+                        Trator!</li>
+                  </ul>
+
+                  <strong>Our Story</strong>
+
+                  <ul>
+                     <li>Trator Car Rentals was founded with a vision to revolutionize the way people experience travel.
+                        With a fleet of meticulously maintained vehicles and a team dedicated to customer satisfaction,
+                        we strive to exceed expectations at every turn. Our journey began with a passion for delivering
+                        unmatched quality and reliability, and today, we stand proud as a trusted name in the car rental
+                        industry.</li>
+                  </ul>
+
+                  <strong>Our Values</strong>
+
+                  <ul>
+                     <li>At Trator, we uphold values of integrity, transparency, and excellence in everything we do. Our
+                        focus is not just on providing vehicles but on creating memorable experiences for our customers.
+                        We believe in building long-lasting relationships based on trust, respect, and mutual
+                        satisfaction.</li>
+                  </ul>
+                  </p>
+                  <div class="readmore_btn"><a href="#">Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- about section end -->
+{% endblock %}
