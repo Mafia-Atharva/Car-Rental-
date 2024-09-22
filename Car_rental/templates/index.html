@@ -5,311 +5,469 @@
 
 
 {% block content %}
-      <div class="call_text_main">
-         <div class="container">
-            <div class="call_taital">
-               <div class="call_text"><a href="https://www.google.com/maps" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_15">Location</span></a></div>
-               <div class="call_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_15">(+71) 8522369417</span></a></div>
-               <div class="call_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_15">Trator@gmail.com</span></a></div>
-            </div>
-         </div>
+<div class="call_text_main">
+   <div class="container">
+      <div class="call_taital">
+         <div class="call_text"><a href="https://www.google.com/maps" target="_blank"><i class="fa fa-map-marker"
+                  aria-hidden="true"></i><span class="padding_left_15">Location</span></a></div>
+         <div class="call_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span
+                  class="padding_left_15">(+71) 8522369417</span></a></div>
+         <div class="call_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span
+                  class="padding_left_15">Trator@gmail.com</span></a></div>
       </div>
-      <!-- banner section start --> 
-      <div class="banner_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div id="banner_slider" class="carousel slide" data-ride="carousel">
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="banner_taital_main">
-                              <h1 class="banner_taital">Car for <br><span style="color: #fe5b29;">Rent</span></h1>
-                              <p class="banner_text">Drive Your Dreams!</p>
-                              <div class="btn_main">
-                                 <div class="contact_bt active"><a href="{% url 'contact' %}">Contact Us</a></div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="banner_taital_main">
-                              <h1 class="banner_taital">Rent a Car<br><span style="color: #fe5b29;">For You</span></h1>
-                              <p class="banner_text">Unlock Your Journey with Us!</p>
-                              <div class="btn_main">
-                                 <div class="contact_bt active"><a href="{% url 'contact' %}">Contact Us</a></div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="banner_taital_main">
-                              <h1 class="banner_taital">Car<br><span style="color: #fe5b29;">Rental</span></h1>
-                              <p class="banner_text">Where Every Mile Feels Like Freedom!</p>
-                              <div class="btn_main">
-                                 <div class="contact_bt active"><a href="{% url 'contact' %}">Contact Us</a></div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="banner_img"><img src="{% static 'images/banner-img.png' %}"></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- banner section end -->
-      <!-- about section start -->
-      <div class="about_section layout_padding">
-         <div class="container">
-            <div class="about_section_2">
-               <div class="row">
-                  <div class="col-md-6"> 
-                     <div class="image_iman"><img src="{% static 'images/about-img.png' %}" class="about_img"></div>
-                  </div>
-                  <div class="col-md-6"> 
-                     <div class="about_taital_box">
-                        <h1 class="about_taital">About <span style="color: #fe5b29;">Us</span></h1>
-                        <p class="about_text">"Welcome to Trator, your trusted companion on the road. Our mission is to redefine your travel experience with top-quality vehicles and personalized service. From short trips to long adventures, we've got you covered. Let's embark on a journey of reliability, comfort, and satisfaction together with Trator!"</p>
-                        <div class="readmore_btn"><a href="{% url 'gallery' %}">Read More</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- about section end -->
-    
-      <!-- gallery section start -->
-      <div class="gallery_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="gallery_taital">Our best offers</h1>
-               </div>
-            </div>
-            <div class="gallery_section_2">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="gallery_box">
-                        <div class="gallery_img"><img src="{% static 'images/img-1.png' %}"></div>
-                        <h3 class="types_text">Mercedes Benz</h3>
-                          <p class="looking_text">Start per day $4500</p>
-                        <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="gallery_box">
-                        <div class="gallery_img"><img src="{% static 'images/img-2.png' %}"></div>
-                        <h3 class="types_text">Toyota</h3>
-                          <p class="looking_text">Start per day $4500</p>
-                        <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="gallery_box">
-                        <div class="gallery_img"><img src="{% static 'images/img-3.png' %}"></div>
-                        <h3 class="types_text">Mercedez</h3>
-                          <p class="looking_text">Start per day $4500</p>
-                        <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="gallery_section_2">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="gallery_box">
-                        <div class="gallery_img"><img src="{% static 'images/img-1.png' %}"></div>
-                        <h3 class="types_text">Ferrari</h3>
-                          <p class="looking_text">Start per day $4500</p>
-                        <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="gallery_box">
-                        <div class="gallery_img"><img src="{% static 'images/img-2.png' %}"></div>
-                        <h3 class="types_text">Porsche</h3>
-                          <p class="looking_text">Start per day $4500</p>
-                        <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="gallery_box">
-                        <div class="gallery_img"><img src="{% static 'images/img-3.png' %}"></div>
-                        <h3 class="types_text">Nissan</h3>
-                          <p class="looking_text">Start per day $4500</p>
-                        <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- gallery section end -->
-      <!-- choose section start -->
-      <div class="choose_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="choose_taital">WHY CHOOSE US</h1>
-               </div>
-            </div>
-            <div class="choose_section_2">
-               <div class="row">
-                  <div class="col-sm-4">
-                     <div class="icon_1"><img src="{% static 'images/icon-1.png' %}"></div>
-                     <h4 class="safety_text">SAFETY & SECURITY</h4>
-                     <p class="ipsum_text">At Trator, safety and security are our top priorities. We understand the importance of providing a secure environment for our customers and their journeys. Our fleet undergoes rigorous maintenance checks and is equipped with the latest safety features to ensure a smooth and secure ride. Additionally, we have implemented strict protocols for cleaning and sanitization to maintain a hygienic environment in all our vehicles. Your safety and peace of mind are paramount to us at Trator.</p>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %}"></div>
-                     <h4 class="safety_text">ONLINE BOOKING</h4>
-                     <p class="ipsum_text">Booking your ride with Trator is quick, easy, and convenient with our seamless online booking platform. Simply visit our website or download our user-friendly mobile app to access our extensive fleet of vehicles. Our online booking system allows you to choose your preferred vehicle, select pickup and drop-off locations, and customize your rental duration with just a few clicks. Enjoy the convenience of booking your ride anytime, anywhere, and experience a hassle-free journey with Trator. </p>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="icon_1"><img src="{% static 'images/icon-3.png' %}"></div>
-                     <h4 class="safety_text">BEST DRIVERS</h4>
-                     <p class="ipsum_text">At Trator, we take pride in our team of highly skilled and professional drivers who are dedicated to providing you with the best possible experience. Our drivers undergo thorough training and screening processes to ensure they meet the highest standards of safety, reliability, and customer service. With their expertise and commitment to excellence, you can rest assured that your journey with Trator will be smooth, enjoyable, and memorable. Experience the difference of traveling with the best drivers at Trator! </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- choose section end -->
-      <!-- client section start -->
-      <div class="client_section layout_padding">
-         <div class="container">
-            <div id="custom_slider" class="carousel slide" data-ride="carousel">
+   </div>
+</div>
+<!-- banner section start -->
+<div class="banner_section layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div id="banner_slider" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <h1 class="client_taital">What our customers say</h1>
-                        </div>
-                     </div>
-                     <div class="client_section_2">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="client_taital_box">
-                                 <div class="client_img"><img src="{% static 'images/client-img1.png' %}"></div>
-                                 <h3 class="moark_text">Henry</h3>
-                                 <p class="client_text">"I had an urgent business meeting, and Trator came through for me. Their online booking system was super easy to use, and the driver arrived on time, making sure I reached my destination promptly. I appreciate their reliability and professionalism. Definitely recommend Trator for all your transportation needs."</p>
-                              </div>
-                              <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="client_taital_box">
-                                 <div class="client_img"><img src="{% static 'images/client-img2.png' %}"></div>
-                                 <h3 class="moark_text">Paul</h3>
-                                 <p class="client_text">"I recently rented a car from Trator for a family road trip, and I couldn't be happier. The vehicle was clean and well-maintained, and the driver was incredibly friendly and accommodating. It made our trip so much more enjoyable. Trator is definitely my go-to rental company from now on!"</p>
-                              </div>
-                              <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
-                           </div>
+                     <div class="banner_taital_main">
+                        <h1 class="banner_taital">Car for <br><span style="color: #fe5b29;">Rent</span></h1>
+                        <p class="banner_text">Drive Your Dreams!</p>
+                        <div class="btn_main">
+                           <div class="contact_bt active"><a href="{% url 'contact' %}">Contact Us</a></div>
                         </div>
                      </div>
                   </div>
                   <div class="carousel-item">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <h1 class="client_taital">What our customers say</h1>
-                        </div>
-                     </div>
-                     <div class="client_section_2">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="client_taital_box">
-                                 <div class="client_img"><img src="{% static 'images/client-img1.png' %}"></div>
-                                 <h3 class="moark_text">Jake</h3>
-                                 <p class="client_text">"I've used Trator multiple times, and they never disappoint. The drivers are always professional and courteous, making me feel safe and comfortable throughout the journey. Their attention to detail and commitment to customer satisfaction truly set them apart. A top-notch car rental service!"</p>
-                              </div>
-                              <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="client_taital_box">
-                                 <div class="client_img"><img src="{% static 'images/client-img2.png' %}"></div>
-                                 <h3 class="moark_text">John</h3>
-                                 <p class="client_text">"I had a fantastic experience with Trator! The online booking was seamless, and the vehicle was in excellent condition. The best part was the driver - friendly, punctual, and very knowledgeable about the area. Highly recommend!"</p>
-                              </div>
-                              <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
-                           </div>
+                     <div class="banner_taital_main">
+                        <h1 class="banner_taital">Rent a Car<br><span style="color: #fe5b29;">For You</span></h1>
+                        <p class="banner_text">Unlock Your Journey with Us!</p>
+                        <div class="btn_main">
+                           <div class="contact_bt active"><a href="{% url 'contact' %}">Contact Us</a></div>
                         </div>
                      </div>
                   </div>
                   <div class="carousel-item">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <h1 class="client_taital">What our customers say</h1>
-                        </div>
-                     </div>
-                     <div class="client_section_2">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="client_taital_box">
-                                 <div class="client_img"><img src="{% static 'images/client-img1.png' %}"></div>
-                                 <h3 class="moark_text">Tyson</h3>
-                                 <p class="client_text">"What a pleasant experience with Trator! From the moment I booked my ride to the end of the journey, everything was seamless. The driver was not only a great navigator but also provided valuable insights about local attractions. Thank you, Trator, for exceeding my expectations!"</p>
-                              </div>
-                              <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="client_taital_box">
-                                 <div class="client_img"><img src="{% static 'images/client-img2.png' %}"></div>
-                                 <h3 class="moark_text">Rudolph</h3>
-                                 <p class="client_text">"I had the pleasure of using Trator for my vacation, and they truly made it memorable. The vehicle was spotless, and the driver was not only courteous but also went above and beyond to ensure we had a comfortable and enjoyable ride. Trator's attention to detail and commitment to customer satisfaction are commendable. I won't hesitate to book with them again in the future!"</p>
-                              </div>
-                              <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
-                           </div>
+                     <div class="banner_taital_main">
+                        <h1 class="banner_taital">Car<br><span style="color: #fe5b29;">Rental</span></h1>
+                        <p class="banner_text">Where Every Mile Feels Like Freedom!</p>
+                        <div class="btn_main">
+                           <div class="contact_bt active"><a href="{% url 'contact' %}">Contact Us</a></div>
                         </div>
                      </div>
                   </div>
                </div>
-               <a class="carousel-control-prev" href="#custom_slider" role="button" data-slide="prev">
-               <i class="fa fa-angle-left"></i>
+               <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
                </a>
-               <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
-               <i class="fa fa-angle-right"></i>
-               </a>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="banner_img"><img src="{% static 'images/banner-img.png' %}"></div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- banner section end -->
+<!-- about section start -->
+<div class="about_section layout_padding">
+   <div class="container">
+      <div class="about_section_2">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="image_iman"><img src="{% static 'images/about-img.png' %}" class="about_img"></div>
+            </div>
+            <div class="col-md-6">
+               <div class="about_taital_box">
+                  <h1 class="about_taital">About <span style="color: #fe5b29;">Us</span></h1>
+                  <p class="about_text">"Welcome to Trator, your trusted companion on the road. Our mission is to
+                     redefine your travel experience with top-quality vehicles and personalized service. From short
+                     trips to long adventures, we've got you covered. Let's embark on a journey of reliability, comfort,
+                     and satisfaction together with Trator!"</p>
+                  <div class="readmore_btn"><a href="{% url 'gallery' %}">Read More</a></div>
+               </div>
             </div>
          </div>
       </div>
-      <!-- client section end -->
-      <!-- contact section start -->
-      <div class="contact_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h1 class="contact_taital">Get In Touch</h1>
+   </div>
+</div>
+<!-- about section end -->
+
+<!-- gallery section start -->
+<div class="gallery_section layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h1 class="gallery_taital">Our best offers</h1>
+         </div>
+      </div>
+      <div class="gallery_section_2">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="gallery_box">
+                  <div class="gallery_img"><img src="{% static 'images/img-1.png' %}"></div>
+                  <h3 class="types_text">Mercedes Benz</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="gallery_box">
+                  <div class="gallery_img"><img src="{% static 'images/img-2.png' %}"></div>
+                  <h3 class="types_text">Toyota</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="gallery_box">
+                  <div class="gallery_img"><img src="{% static 'images/img-3.png' %}"></div>
+                  <h3 class="types_text">Mercedez</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
                </div>
             </div>
          </div>
-         <div class="container">
-            <div class="contact_section_2">
+      </div>
+      <div class="gallery_section_2">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="gallery_box">
+                  <div class="gallery_img"><img src="{% static 'images/img-1.png' %}"></div>
+                  <h3 class="types_text">Ferrari</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="gallery_box">
+                  <div class="gallery_img"><img src="{% static 'images/img-2.png' %}"></div>
+                  <h3 class="types_text">Porsche</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="gallery_box">
+                  <div class="gallery_img"><img src="{% static 'images/img-3.png' %}"></div>
+                  <h3 class="types_text">Nissan</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="{% url 'contact' %}">Book Now</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- gallery section end -->
+<!-- choose section start -->
+<div class="choose_section layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <h1 class="choose_taital">WHY CHOOSE US</h1>
+         </div>
+      </div>
+      <div class="choose_section_2">
+         <div class="row">
+            <div class="col-sm-4">
+               <div class="icon_1"><img src="{% static 'images/icon-1.png' %}"></div>
+               <h4 class="safety_text">SAFETY & SECURITY</h4>
+               <p class="ipsum_text">At Trator, safety and security are our top priorities. We understand the importance
+                  of providing a secure environment for our customers and their journeys. Our fleet undergoes rigorous
+                  maintenance checks and is equipped with the latest safety features to ensure a smooth and secure ride.
+                  Additionally, we have implemented strict protocols for cleaning and sanitization to maintain a
+                  hygienic environment in all our vehicles. Your safety and peace of mind are paramount to us at Trator.
+               </p>
+            </div>
+            <div class="col-sm-4">
+               <div class="icon_1"><img src="{% static 'images/icon-2.png' %}"></div>
+               <h4 class="safety_text">ONLINE BOOKING</h4>
+               <p class="ipsum_text">Booking your ride with Trator is quick, easy, and convenient with our seamless
+                  online booking platform. Simply visit our website or download our user-friendly mobile app to access
+                  our extensive fleet of vehicles. Our online booking system allows you to choose your preferred
+                  vehicle, select pickup and drop-off locations, and customize your rental duration with just a few
+                  clicks. Enjoy the convenience of booking your ride anytime, anywhere, and experience a hassle-free
+                  journey with Trator. </p>
+            </div>
+            <div class="col-sm-4">
+               <div class="icon_1"><img src="{% static 'images/icon-3.png' %}"></div>
+               <h4 class="safety_text">BEST DRIVERS</h4>
+               <p class="ipsum_text">At Trator, we take pride in our team of highly skilled and professional drivers who
+                  are dedicated to providing you with the best possible experience. Our drivers undergo thorough
+                  training and screening processes to ensure they meet the highest standards of safety, reliability, and
+                  customer service. With their expertise and commitment to excellence, you can rest assured that your
+                  journey with Trator will be smooth, enjoyable, and memorable. Experience the difference of traveling
+                  with the best drivers at Trator! </p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- choose section end -->
+<!-- client section start -->
+<div class="client_section layout_padding">
+   <div class="container">
+      <div id="custom_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
                <div class="row">
                   <div class="col-md-12">
-                     <div class="mail_section_1">
-                        <form action="{% url 'contact' %}" method="post">
-                           {% csrf_token %}
-                           <input type="text" class="mail_text" placeholder="Name" name="Name" required>
-                           <input type="text" class="mail_text" placeholder="Email" name="Email" required>
-                           <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number" required>
-                           <textarea class="message-bt" placeholder="Please tell us which car you are interest in!" rows="5"
-                              id="comment" name="Message" required></textarea>
-                           <div class="send_bt"><a href="#">SEND</a></div>
-                        </form>
+                     <h1 class="client_taital">What our customers say</h1>
+                  </div>
+               </div>
+               <div class="client_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="client_taital_box">
+                           <div class="client_img"><img src="{% static 'images/client-img1.png' %}"></div>
+                           <h3 class="moark_text">Henry</h3>
+                           <p class="client_text">"I had an urgent business meeting, and Trator came through for me.
+                              Their online booking system was super easy to use, and the driver arrived on time, making
+                              sure I reached my destination promptly. I appreciate their reliability and
+                              professionalism. Definitely recommend Trator for all your transportation needs."</p>
+                        </div>
+                        <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="client_taital_box">
+                           <div class="client_img"><img src="{% static 'images/client-img2.png' %}"></div>
+                           <h3 class="moark_text">Paul</h3>
+                           <p class="client_text">"I recently rented a car from Trator for a family road trip, and I
+                              couldn't be happier. The vehicle was clean and well-maintained, and the driver was
+                              incredibly friendly and accommodating. It made our trip so much more enjoyable. Trator is
+                              definitely my go-to rental company from now on!"</p>
+                        </div>
+                        <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1 class="client_taital">What our customers say</h1>
+                  </div>
+               </div>
+               <div class="client_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="client_taital_box">
+                           <div class="client_img"><img src="{% static 'images/client-img1.png' %}"></div>
+                           <h3 class="moark_text">Jake</h3>
+                           <p class="client_text">"I've used Trator multiple times, and they never disappoint. The
+                              drivers are always professional and courteous, making me feel safe and comfortable
+                              throughout the journey. Their attention to detail and commitment to customer satisfaction
+                              truly set them apart. A top-notch car rental service!"</p>
+                        </div>
+                        <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="client_taital_box">
+                           <div class="client_img"><img src="{% static 'images/client-img2.png' %}"></div>
+                           <h3 class="moark_text">John</h3>
+                           <p class="client_text">"I had a fantastic experience with Trator! The online booking was
+                              seamless, and the vehicle was in excellent condition. The best part was the driver -
+                              friendly, punctual, and very knowledgeable about the area. Highly recommend!"</p>
+                        </div>
+                        <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h1 class="client_taital">What our customers say</h1>
+                  </div>
+               </div>
+               <div class="client_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="client_taital_box">
+                           <div class="client_img"><img src="{% static 'images/client-img1.png' %}"></div>
+                           <h3 class="moark_text">Tyson</h3>
+                           <p class="client_text">"What a pleasant experience with Trator! From the moment I booked my
+                              ride to the end of the journey, everything was seamless. The driver was not only a great
+                              navigator but also provided valuable insights about local attractions. Thank you, Trator,
+                              for exceeding my expectations!"</p>
+                        </div>
+                        <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="client_taital_box">
+                           <div class="client_img"><img src="{% static 'images/client-img2.png' %}"></div>
+                           <h3 class="moark_text">Rudolph</h3>
+                           <p class="client_text">"I had the pleasure of using Trator for my vacation, and they truly
+                              made it memorable. The vehicle was spotless, and the driver was not only courteous but
+                              also went above and beyond to ensure we had a comfortable and enjoyable ride. Trator's
+                              attention to detail and commitment to customer satisfaction are commendable. I won't
+                              hesitate to book with them again in the future!"</p>
+                        </div>
+                        <div class="quick_icon"><img src="{% static 'images/quick-icon.png' %}"></div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+         <a class="carousel-control-prev" href="#custom_slider" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+         </a>
+         <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+         </a>
       </div>
-      <!-- contact section end -->
+   </div>
+</div>
+<!-- client section end -->
+<!-- contact section start -->
+<div class="contact_section layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12">
+            <h1 class="contact_taital">Get In Touch</h1>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="contact_section_2">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="mail_section_1">
+                  <form action="{% url 'home' %}" method="post">
+                     {% csrf_token %}
+                     <input type="text" class="mail_text" placeholder="Name" name="Name" required>
+                     <input type="text" class="mail_text" placeholder="Email" name="Email" required>
+                     <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number" required>
+                     <textarea class="message-bt" placeholder="Please tell us which car you are interest in!" rows="5"
+                        id="comment" name="Message" required></textarea>
+                     <div class="send_bt">
+                        <a href="#" id="submit-btn">SEND</a>
+                     </div>
 
-      <style>
-         .home{
-            color:orange
-         }
-      </style>
-      {% endblock %}
+
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- contact section end -->
+
+<div id="custom-alert" class="modal">
+   <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <p id="alert-message"></p>
+   </div>
+</div>
+
+<style>
+   .home {
+      color: orange
+   }
+
+   .modal {
+      display: none;
+
+      position: fixed;
+
+      z-index: 1000;
+
+      left: 0;
+      top: 0;
+      width: 100%;
+
+      height: 100%;
+
+      background-color: rgba(0, 0, 0, 0.5);
+
+   }
+
+   .modal-content {
+      background-color: white;
+      margin: 15% auto;
+
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .close-btn {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+   }
+
+   .close-btn:hover,
+   .close-btn:focus {
+      color: black;
+      cursor: pointer;
+   }
+</style>
+
+<script>
+   document.getElementById('submit-btn').addEventListener('click', function(event) {
+       // Prevent the default anchor behavior
+       event.preventDefault();
+
+       // Get the form element
+       let form = this.closest('form');
+
+       // Use form's checkValidity() method to validate the form fields
+       if (form.checkValidity()) {
+           // If the form is valid, proceed with AJAX submission
+           let formData = new FormData(form);
+
+           fetch(form.action, {
+               method: 'POST',
+               headers: {
+                   'X-CSRFToken': '{{ csrf_token }}',  // Include CSRF token for Django
+               },
+               body: formData
+           })
+           .then(response => response.json())
+           .then(data => {
+               if (data.status === 'success') {
+                   // Show custom modal with success message
+                   showAlert(data.message);
+                   form.reset(); // Optionally reset the form fields
+               }
+           })
+           .catch(error => {
+               console.error('Error:', error);
+           });
+       } else {
+           // If form is invalid, display the browser's default validation messages
+           form.reportValidity();
+       }
+   });
+
+   // Function to display the custom alert
+   function showAlert(message) {
+       // Get the modal and message elements
+       let modal = document.getElementById('custom-alert');
+       let messageElement = document.getElementById('alert-message');
+       let closeButton = document.querySelector('.close-btn');
+
+       // Set the message in the modal
+       messageElement.innerText = message;
+
+       // Display the modal
+       modal.style.display = 'block';
+
+       // Close the modal when the close button is clicked
+       closeButton.onclick = function() {
+           modal.style.display = 'none';
+       }
+
+       // Close the modal if the user clicks anywhere outside of the modal content
+       window.onclick = function(event) {
+           if (event.target === modal) {
+               modal.style.display = 'none';
+           }
+       }
+   }
+</script>
+
+{% endblock %}
